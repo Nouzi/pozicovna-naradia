@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# Lokálna databáza sa dá kedykoľvek vytvoriť znova cez npm run db:reset
+data/*.db
+data/*.db-*
+
+# Lokálne nastavenia a tajné údaje
+.env
+.DS_Store
